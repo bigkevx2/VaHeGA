@@ -10,9 +10,9 @@ import java.util.Set;
  */
 public class MedewerkerRepository implements IRepository {
     private Set<Medewerker> medewerkers = new HashSet<>();
-    private String server = "DESKTOP-MSBUMQV";
-    private String userName = "sa";
-    private String password = "bigkevx216993399";
+    private String server = ""; //TODO: set to your local machine
+    private String userName = ""; //TODO: set to your mssql username
+    private String password = ""; //TODO: set to your db password
     private Connection connection;
     private Statement statement;
     private ResultSet resultSet;
